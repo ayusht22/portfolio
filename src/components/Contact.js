@@ -1,6 +1,8 @@
 import React from 'react'
 import emailjs from 'emailjs-com'
 import {Form,Button} from 'react-bootstrap'
+import {Facebook,GitHub,LinkedIn} from '@material-ui/icons';
+import Link from '@material-ui/core/Link';
 function Contact() {
     function sendEmail(e)
     {  console.log(process.env.REACT_APP_SERVICEID)
@@ -16,6 +18,7 @@ function Contact() {
 
     }
     return (
+        <>
         <div className="contact-form">
             <Form onSubmit={sendEmail}>
                 <h2 style={{float:"left"}}>Write to me</h2>
@@ -37,6 +40,12 @@ function Contact() {
                 </Button>
             </Form>
         </div>
+         <div className="socials">
+         <Link href="https://www.facebook.com/ayush.tiwari.1460"><Facebook style={{fontSize:"55px",color:"rgb(17, 82, 147)"}}/></Link>
+         <Link href="https://www.linkedin.com/in/ayush-tiwari-5373831b3/"><LinkedIn style={{fontSize:"60px",color:"rgb(17, 82, 147)"}}/></Link>
+         <Link href="https://github.com/ayusht22" style={{background:"none"}}><GitHub style={{fontSize:"50px",color:"white"}}/></Link>
+     </div>
+     </>
     )
 }
 
