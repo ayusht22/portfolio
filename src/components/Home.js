@@ -8,7 +8,7 @@ import mongodbImage from './images/mongodb.png'
 import htmlImage from './images/html.png'
 import jsImage from './images/js.png'
 import expressImage from './images/express.png'
-import dp from './images/dp.jpeg'
+
 function Home() {
     return (
         <>

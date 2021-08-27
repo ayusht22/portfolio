@@ -6,8 +6,9 @@ import image2 from './images/pin.PNG'
 function Projects() {
     return (
         <>
+        <div style={{paddingLeft:"50px"}}>
             <h1 style={{color:"white",fontFamily:"monospace",fontWeight:"bolder"}}>PROJECTS</h1>
-            <div className="container d-flex justify-content-center mt-5">
+            <div className="container d-flex justify-content-center mt-5 ml-auto mr-auto">
                <div className="row " >
                     <div className="col" style={{padding:"10px",marginRight:"50px"}} >
                     <Card heading={"CHATROOM APP"} image={image1} text={"built using socketio nodejs and react"}/>
@@ -20,6 +21,7 @@ function Projects() {
                     </div>
                </div>
             </div>
+        </div>
         </>
     )
 }

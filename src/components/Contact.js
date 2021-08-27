@@ -41,10 +41,10 @@ function Contact() {
             </Form>
         </div>
          <div className="socials">
-         <Link href="https://www.facebook.com/ayush.tiwari.1460"><Facebook style={{fontSize:"55px",color:"rgb(17, 82, 147)"}}/></Link>
-         <Link href="https://www.linkedin.com/in/ayush-tiwari-5373831b3/"><LinkedIn style={{fontSize:"60px",color:"rgb(17, 82, 147)"}}/></Link>
-         <Link href="https://github.com/ayusht22" style={{background:"none"}}><GitHub style={{fontSize:"50px",color:"white"}}/></Link>
-     </div>
+            <Link href="https://www.facebook.com/ayush.tiwari.1460"><Facebook style={{fontSize:"55px",color:"rgb(17, 82, 147)"}}/></Link>
+            <Link href="https://www.linkedin.com/in/ayush-tiwari-5373831b3/"><LinkedIn style={{fontSize:"60px",color:"rgb(17, 82, 147)"}}/></Link>
+            <Link href="https://github.com/ayusht22" style={{background:"none"}}><GitHub style={{fontSize:"50px",color:"white"}}/></Link>
+        </div>
      </>
     )
 }

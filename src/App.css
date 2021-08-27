@@ -52,7 +52,6 @@ section{
 
 .three{
   background:#262b38;
-
   padding-top: 50px;
   color: white;
 }
@@ -104,5 +103,10 @@ box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 2);
   .contact-form{
     width: 80%;
   }
-  
+  .three{
+    height: auto;
+  }
+  section{
+    scroll-snap-align: none;
+  }
 }
