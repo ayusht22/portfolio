@@ -38,28 +38,28 @@ function Home() {
                 <div className="skillContainer">
                 
                     <div className="skills">
-                        <img src={htmlImage}></img>
+                        <img src={htmlImage} alt="html"></img>
                     </div>
                     <div className="skills">
-                        <img src={cssImage}></img>
+                        <img src={cssImage} alt="css"></img>
                     </div>
                     <div className="skills">
-                        <img src={pyImage}></img>
+                        <img src={pyImage} alt="python"></img>
                     </div>
                     <div className="skills">
-                        <img src={jsImage}></img>
+                        <img src={jsImage} alt="js"></img>
                     </div>
                     <div className="skills">
-                        <img src={reactImage}></img>
+                        <img src={reactImage} alt="react"></img>
                     </div>
                     <div className="skills">
-                        <img src={nodeImage}></img>
+                        <img src={nodeImage} alt="nodejs"></img>
                     </div>
                     <div className="skills">
-                        <img src={expressImage}></img>
+                        <img src={expressImage} alt="express js"></img>
                     </div>
                     <div className="skills">
-                        <img src={mongodbImage} id="mongo"></img>
+                        <img src={mongodbImage} id="mongo" alt="mongodb"></img>
                     </div>
                     
             </div>
