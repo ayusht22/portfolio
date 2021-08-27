@@ -18,7 +18,16 @@
   width: 80%;
   
 }
-
+.contact-form{
+  margin: auto;
+  border-radius: 10px;
+  padding: 50px;
+  width: 30%;
+  background:#212529;
+}
+.contact-form h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 #mongo{
   background:white;  
 }
@@ -40,8 +49,12 @@ section{
   scroll-snap-align: start;
   
 }
+
 .three{
-  background: #C5C6C7;
+  background:#262b38;
+
+  padding-top: 50px;
+  color: white;
 }
 .two{
   background:#1F2833;
@@ -78,7 +91,7 @@ box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 2);
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1500px) {
   .two{
     height: auto;
   }
@@ -88,6 +101,8 @@ box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 2);
   .heading{
     margin-top: 100px;
   }
-
+  .contact-form{
+    width: 80%;
+  }
   
 }

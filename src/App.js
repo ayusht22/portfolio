@@ -1,5 +1,6 @@
 import Home from './components/Home'
 import Projects from'./components/Projects'
+import Contact from './components/Contact'
 import './App.css';
 
 function App() {
@@ -10,6 +11,9 @@ function App() {
       </section>
       <section className="two" >
        <Projects/>
+      </section>
+      <section className="three" >
+       <Contact/>
       </section>
       
     </div>
